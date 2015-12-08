@@ -21,7 +21,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-SECRET_KEY = os.environ.get('SECRET_KEY_MYSITE')
+
+SECRET_KEY=os.environ.get('SECRET_KEY_MYSITE')
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -58,7 +59,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/home/isaac2016/my-first-blog/blog/Templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
