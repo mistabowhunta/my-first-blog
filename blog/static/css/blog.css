@@ -1,21 +1,78 @@
+
 h1 {
     color: red;
 	font-size: 400%;
+
 }
-body {
-	padding-left: 20px;
-	font-family: 'PT Sans', sans-serif;
-	background-color: silver;
-	padding-right:20px;
+.title_link {
+    color: red;
+
 }
+
 .page-header {
     background-color: black;
     margin-top: 0;
     padding: 20px 20px 20px 20px;
 	color: red;
-	
+
+}
+body {
+	padding-left: 20px;
+	font-family: 'PT Sans', sans-serif;
+	/*background-color: silver;*/
+    background-image: url('images/blue_tech.jpg');
+    background-size: 1280px 800px;
+	padding-right:20px;
+
+
+
 }
 .post{
 	padding-left: 20px;
-	
+	color: black;
+	margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+
+}
+.post_header{
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a { /*spaces the navigation links*/
+    display: block;
+
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navigation{
+
+    position: relative;
+    bottom: 18;
+    left: 900;
+    width: 300px;
+
+}
+.nav1{ /* these navs are to change color of navigation links to red */
+    color: red;
+}
+.nav2{
+    color: red;
+}
+.nav3{
+    color: red;
+}
+.nav4{
+    color: red;
 }
