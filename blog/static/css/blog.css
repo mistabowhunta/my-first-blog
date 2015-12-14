@@ -14,21 +14,26 @@ h1 {
     margin-top: 0;
     padding: 20px 20px 20px 20px;
 	color: red;
-
+    position: static;
 }
 body {
 	padding-left: 20px;
+	padding-right:20px;
 	font-family: 'PT Sans', sans-serif;
 	/*background-color: silver;*/
     background-image: url('images/blue_tech.jpg');
-    background-size: 1280px 800px;
-	padding-right:20px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    /*background-size: 1280px 800px;*/
+
 
 
 
 }
 .post{
-	padding-left: 20px;
+
 	color: black;
 	margin-left: auto;
     margin-right: auto;
@@ -41,8 +46,9 @@ body {
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-left: 65%;
+    position: relative;
+    bottom: 13px;
 }
 
 li {
@@ -58,10 +64,6 @@ li a { /*spaces the navigation links*/
 }
 .navigation{
 
-    position: relative;
-    bottom: 18;
-    left: 900;
-    width: 300px;
 
 }
 .nav1{ /* these navs are to change color of navigation links to red */

@@ -5,17 +5,19 @@
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="{% static 'css/blog.css' %}">
 		<link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+
         <title>Isaac's Blog</title>
     </head>
     <body>
         <div class="page-header">
 
 			{% if user.is_authenticated %}
-			<a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+			<a href="{% url 'post_new' %}"><span class="glyphicon glyphicon-plus"></span></a>
 			{% endif %}
 
             <h1><a class= "title_link" href="http://isaac2016.pythonanywhere.com">Isaac's Blog</a></h1>
 			<p>I should really put something here, but maybe not.</p>
+
 			 <ul class = navigation>
               <li><a class = nav1 href="default.asp">Home</a></li>
               <li><a class = nav2 href="news.asp">News</a></li>
